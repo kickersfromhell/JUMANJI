@@ -30,9 +30,13 @@ sudo apt-get install -y --force-yes hadoop-yarn-resourcemanager
 echo 'Jumanji - Hadoop Resource Manager installed'
 
 #Configuration files
+sudo bash -c 'echo " " > '/etc/hadoop/conf/core-site.xml''
+sudo sed -i "\$a\<configuration><property><name>fs.defaultFS</name><value>hdfs://orange69:8020</value></property></configuration>" /etc/hadoop/conf/core-site.xml
+echo 'Jumanji - core-site.xml created'
+
 sudo bash -c 'echo " " > '/etc/hadoop/conf/hdfs-site.xml''
 sudo sed -i "\$a\<configuration><property><name>dfs.namenode.name.dir</name><value>file:///disk1/dfs/nn,file:///disk2/dfs/nn</value> </property> <property> <name>dfs.datanode.data.dir</name><value>file:///disk1/dfs/dn,file:///disk2/dfs/dn</value></property></configuration>" /etc/hadoop/conf/hdfs-site.xml
-
+echo 'Jumanji - hdfs-site.xml created'
 
 #page 14
 sudo mkdir -p /disk1/dfs/nn
