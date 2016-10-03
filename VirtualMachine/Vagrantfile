@@ -1,0 +1,137 @@
+Vagrant.configure("2") do |config|
+	config.vm.boot_timeout = 400
+	config.vm.synced_folder "shared", "/tmp/shared"
+	
+	config.vm.define "orange69" do |orange69|
+		orange69.vm.hostname = "orange69"
+		orange69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		orange69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.69"
+		orange69.vm.provision :shell, path: "bootstrap.sh"
+		orange69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "orange69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+	
+	config.vm.define "blue69" do |blue69|
+		blue69.vm.hostname = "blue69"
+		blue69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		blue69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.70"
+		blue69.vm.provision :shell, path: "bootstrap.sh"
+		blue69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "blue69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "pink69" do |pink69|
+		pink69.vm.hostname = "pink69"
+		pink69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		pink69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.71"
+		pink69.vm.provision :shell, path: "bootstrap.sh"
+		pink69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "pink69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "green69" do |green69|
+		green69.vm.hostname = "green69"
+		green69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		green69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.72"
+		green69.vm.provision :shell, path: "bootstrap.sh"
+		green69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "green69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "cyan69" do |cyan69|
+		cyan69.vm.hostname = "cyan69"
+		cyan69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		cyan69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.73"
+		cyan69.vm.provision :shell, path: "bootstrap.sh"
+		cyan69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "cyan69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "purple69" do |purple69|
+		purple69.vm.hostname = "purple69"
+		purple69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		purple69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.74"
+		purple69.vm.provision :shell, path: "bootstrap.sh"
+		purple69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "purple69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "ivory69" do |ivory69|
+		ivory69.vm.hostname = "ivory69"
+		ivory69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		ivory69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.75"
+		ivory69.vm.provision :shell, path: "bootstrap.sh"
+		ivory69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "ivory69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "peru69" do |peru69|
+		peru69.vm.hostname = "peru69"
+		peru69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		peru69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.76"
+		peru69.vm.provision :shell, path: "bootstrap.sh"
+		peru69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "peru69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "violet69" do |violet69|
+		violet69.vm.hostname = "violet69"
+		violet69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		violet69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.77"
+		violet69.vm.provision :shell, path: "bootstrap.sh"
+		violet69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "violet69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end
+
+	config.vm.define "crimson69" do |crimson69|
+		crimson69.vm.hostname = "crimson69"
+		crimson69.vm.box = "chad-thompson-VAGRANTSLASH-ubuntu-trusty64-gui"
+		crimson69.vm.network :public_network, :public_network => "wlan0", ip: "192.168.69.78"
+		crimson69.vm.provision :shell, path: "bootstrap.sh"
+		crimson69.vm.provider :virtualbox do |baseVM|
+			baseVM.gui = true
+			baseVM.name = "crimson69"
+			baseVM.memory = 4096
+			baseVM.cpus = 2
+		end
+	end	
+	
+	
+	
+end
