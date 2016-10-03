@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
 		orange69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "orange69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
 		blue69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "blue69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
 		pink69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "pink69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -49,7 +49,7 @@ Vagrant.configure("2") do |config|
 		green69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "green69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -62,7 +62,7 @@ Vagrant.configure("2") do |config|
 		cyan69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "cyan69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -75,7 +75,7 @@ Vagrant.configure("2") do |config|
 		purple69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "purple69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -88,7 +88,7 @@ Vagrant.configure("2") do |config|
 		ivory69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "ivory69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -101,7 +101,7 @@ Vagrant.configure("2") do |config|
 		peru69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "peru69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -114,7 +114,7 @@ Vagrant.configure("2") do |config|
 		violet69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "violet69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end
@@ -127,7 +127,7 @@ Vagrant.configure("2") do |config|
 		crimson69.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
 			baseVM.name = "crimson69"
-			baseVM.memory = 4096
+			baseVM.memory = 2048
 			baseVM.cpus = 2
 		end
 	end	
