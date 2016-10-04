@@ -1,3 +1,5 @@
+#! /bin/bash
+
 #update
 sudo apt-get update
 echo 'Jumanji - update completed'
