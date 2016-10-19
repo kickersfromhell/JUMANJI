@@ -10,11 +10,12 @@ Vagrant up
 
 PREPARING MACHINES
 ------------------
-Run the following commands in terminal;	1- sudo apt-get update
-					2- sudo apt-get install -y vim
-					3- sudo apt-get install -y openjdk-7-jdk
-					4- sudo apt-get install -y ntp ntpDate
-					5- sudo service ntp start
+Run the following commands in terminal:
+1- sudo apt-get update
+2- sudo apt-get install -y vim
+3- sudo apt-get install -y openjdk-7-jdk
+4- sudo apt-get install -y ntp ntpDate
+5- sudo service ntp start
 
 
 Edit the hosts file using the command;	   sudo vim /etc/hosts
